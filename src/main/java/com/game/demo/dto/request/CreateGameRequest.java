@@ -1,8 +1,8 @@
-package com.game.demo.dto;
+package com.game.demo.dto.request;
 
 import javax.validation.constraints.Size;
 
-public class CreatePlayerRequest {
+public class CreateGameRequest {
 
     @Size(min = 3 , max = 12, message = "Username length must be between 3 and 12 characters long.")
     private String username;
